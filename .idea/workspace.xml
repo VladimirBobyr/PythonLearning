@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8935d8ff-3878-40cc-b8f0-db7f00cc6713" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnMailRU/Lesson 15 - Functions2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnMailRU/Lesson16 - Modules.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnMailRU/Lesson17 - Class1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnMailRU/mydodule.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnMailRU/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson18 - Class2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson19 - Files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +36,9 @@
         <option value="$PROJECT_DIR$/OnMailRU/mydodule.py" />
         <option value="$PROJECT_DIR$/OnMailRU/Lesson16 - Modules.py" />
         <option value="$PROJECT_DIR$/OnMailRU/Lesson17 - Class1.py" />
+        <option value="$PROJECT_DIR$/hero.py" />
+        <option value="$PROJECT_DIR$/Lesson18 - Class2.py" />
+        <option value="$PROJECT_DIR$/Lesson19 - Files.py" />
       </list>
     </option>
   </component>
@@ -62,11 +63,6 @@
             <path>
               <item name="PythonLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonLearning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="OnMailRU" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -94,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Lesson16 - Modules">
+  <component name="RunManager" selected="Python.Lesson18 - Class2">
     <configuration name="Lesson 15 - Functions2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,8 +133,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Lesson18 - Class2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson18 - Class2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Lesson18 - Class2" />
         <item itemvalue="Python.Lesson16 - Modules" />
         <item itemvalue="Python.Lesson 15 - Functions2" />
       </list>
@@ -160,20 +178,20 @@
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24336973" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24336973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.09984639" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3655914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -194,20 +212,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OnMailRU/Lesson16 - MOD.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnMailRU/mymodule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/OnMailRU/Lesson16 - MOD.py" />
+    <entry file="file://$PROJECT_DIR$/OnMailRU/mymodule.py" />
     <entry file="file://$PROJECT_DIR$/OnMailRU/mydodule.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -228,6 +234,43 @@
           <caret line="12" column="99" selection-start-line="12" selection-start-column="99" selection-end-line="12" selection-end-column="99" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnMailRU/Lesson18 - Class2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson19 - Files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson18 - Class2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hero.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list_of_passwords.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
