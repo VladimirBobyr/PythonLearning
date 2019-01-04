@@ -229,6 +229,7 @@ for idx, url in enumerate(listurl):
       print('Canceled, already exist: ' + path)
       continue
 
+  '''
   # Uncomment in case want file load
   r = requests.get(url, stream=True)
   update_progress(round(idx/listurl.__len__(),2))
@@ -240,3 +241,4 @@ for idx, url in enumerate(listurl):
       saved_count = saved_count + 1
 
 print("\nSaved imagges: " +  str(saved_count))
+  '''

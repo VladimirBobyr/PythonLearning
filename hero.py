@@ -49,3 +49,7 @@ class SuperHero(Hero):
                        " Magic is: " + str(self.__magic)).title()
         print(description)
 
+#hero1 = Hero('Leo', 1, 'coocoo')
+#hero1.show_hero()
+
+

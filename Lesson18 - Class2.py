@@ -13,8 +13,9 @@ mysupero1.make_magic()
 print("---------------------------")
 mysupero1.show_hero()
 
-mysupero1.magic=70 # don't use it - use __ in variable it doesn't allow us to change it
+#mysupero1.magic = 70  # don't use it - use __ in variable it doesn't allow us to change it
 mysupero1.show_hero()
-
+myhero1.show_hero()
+print(mysupero1.level)
 
 
