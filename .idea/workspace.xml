@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8935d8ff-3878-40cc-b8f0-db7f00cc6713" name="Default Changelist" comment="Main update of PicLoader&#10;added load from 8muses">
-      <change afterPath="$PROJECT_DIR$/Lesson 20 - Exception.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 21 - JSON.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 22 - Arguments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 23 - RegExpression1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 24 - RegExpression2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 25 - Pygame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PyGame/Lesson 26 - MoveImage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PyGame/intel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_proxy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_settings.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyGame/spaceship.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/PythonLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonLearning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson18 - Class2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson18 - Class2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PicLoadImagefap.py" beforeDir="false" afterPath="$PROJECT_DIR$/PicLoadImagefap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hero.py" beforeDir="false" afterPath="$PROJECT_DIR$/hero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyGame/Lesson 26 - MoveImage.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyGame/Lesson 26 - MoveImage.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PyGame/Lesson 26 - MoveImage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            <state relative-caret-position="425">
+              <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -85,11 +73,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="55" />
-    <option name="y" value="145" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="96" />
+    <option name="y" value="23" />
     <option name="width" value="1318" />
-    <option name="height" value="630" />
+    <option name="height" value="792" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -104,12 +92,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="PythonLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="PyLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyLearn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PythonLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="PyLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyLearn" type="462c0819:PsiDirectoryNode" />
               <item name="PyGame" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -284,20 +272,20 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
+    <frame x="556" y="74" width="1318" height="792" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18174727" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32961783" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3579109" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35654008" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30261138" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32961783" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.62447256" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -349,13 +337,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="267" selection-start-line="267" selection-end-line="267" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/codecs.py" />
     <entry file="file://$PROJECT_DIR$/PicLoadImagefap.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -458,8 +440,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PyGame/Lesson 26 - MoveImage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        <state relative-caret-position="425">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
         </state>
       </provider>
     </entry>
