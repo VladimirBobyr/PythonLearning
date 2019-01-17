@@ -12,7 +12,7 @@ screen = pygame.display.set_mode((MAX_X, MAX_Y), pygame.FULLSCREEN)
 pygame.display.set_caption("My First PyGame")
 
 print(pygame.image.get_extended())
-myimage = pygame.image.load("spaceship.png").convert()
+myimage = pygame.image.load("lera.jpg").convert()
 myimage = pygame.transform.scale(myimage, (100, 100))
 
 x = IMAGE_SIZE
@@ -49,27 +49,29 @@ while game_over == False:
                 move_up = False
             if event.key == pygame.K_DOWN:
                 move_down = False
+        if event.type == pygame.MOUSEBUTTONDOWN:
+            x, y = event.pos
 
     if move_righ:
         if x < MAX_X - IMAGE_SIZE:
             x = x + 1
-        if move_left:
-            if x > 0:
-                x = x - 1
-        if move_down:
-            if y < MAX_Y - IMAGE_SIZE:
-                y = y + 1
-        if move_up:
-            if y > 0:
-                y = y - 1
+    if move_left:
+        if x > 0:
+            x = x - 1
+    if move_down:
+        if y < MAX_Y - IMAGE_SIZE:
+            y = y + 1
+    if move_up:
+        if y > 0:
+            y = y - 1
+
+    screen.fill(bg_color)
+    screen.blit(myimage, (x, y))
+    pygame.display.flip()
 
 
 
 
 
-        if event.type == pygame.MOUSEBUTTONDOWN:
-            x, y = event.pos
 
-        screen.fill(bg_color)
-        screen.blit(myimage, (x, y))
-        pygame.display.flip()
+
