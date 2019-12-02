@@ -53,5 +53,9 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+# Idea and git folders
+.idea/
+.git
+
 # PyBuilder
 target/
