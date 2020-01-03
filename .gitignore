@@ -55,6 +55,7 @@ docs/_build/
 
 # Idea and git folders
 .idea/
+.idea/*
 .git
 
 # PyBuilder
