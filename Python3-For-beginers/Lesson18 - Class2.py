@@ -1,7 +1,3 @@
-import mydodule
-import hero
-
-from mydodule import *
 from hero import *
 
 myhero1 = Hero("Vurdalak", 4, "Orc")

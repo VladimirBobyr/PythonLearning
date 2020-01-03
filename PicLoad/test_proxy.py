@@ -1,4 +1,4 @@
-import
+import requests
 
 http_proxy  = "http://54.37.73.112:3128"
 https_proxy = "https://54.37.73.112:1080"

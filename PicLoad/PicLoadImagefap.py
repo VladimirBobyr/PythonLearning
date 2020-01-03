@@ -2,7 +2,6 @@ import os
 import shutil
 import requests
 import sys
-import datetime
 
 
 #from html.parser import HTMLParser
@@ -46,23 +45,8 @@ def get_username(infile):
           username_length = line_username.find('</font>')
           username = line_username[58:username_length]
           print("Username: " + username.strip())
-  myfile.close()
-  if username == 0:
-      myfile = open(infile, mode="r", encoding="latin_1")
-      what_to_look = 'gallery by '
-      for line_username in myfile:
-          if what_to_look in line_username:
-              username_start_pos = line_username.find('gallery by') + 11
-              i = username_start_pos
-              spaceis = line_username[i]
-              while spaceis != ' ':
-                  i = i + 1
-                  spaceis = line_username[i]
-              username_end_pos = i
-              username = line_username[username_start_pos:username_end_pos]
-              print("Username: " + username.strip())
-      myfile.close()
   return username.strip()
+  myfile.close()
 
 
 def get_argument2(infile):
@@ -165,7 +149,7 @@ def update_progress(progress):
 # ========================== MAIN ==============================#
 
 #url_start = 'https://www.imagefap.com/pictures/7847560/Slovanna-3'
-url_start = 'https://www.imagefap.com/pictures/7903083/Soccer-Mom-Nancy-Part-1'
+url_start = 'https://www.imagefap.com/pictures/7847624/Exposing-my-thick-wife'
 is_full_view = url_start.find('view=2')
 if is_full_view == -1:
    url_start = url_start + '?view=2'
@@ -245,6 +229,7 @@ for idx, url in enumerate(listurl):
       print('Canceled, already exist: ' + path)
       continue
 
+  '''
   # Uncomment in case want file load
   r = requests.get(url, stream=True)
   update_progress(round(idx/listurl.__len__(),2))
@@ -256,3 +241,4 @@ for idx, url in enumerate(listurl):
       saved_count = saved_count + 1
 
 print("\nSaved imagges: " +  str(saved_count))
+  '''
